@@ -30,6 +30,7 @@ python tools/check.py          # 必须 0 错误
 ## 如何参与
 
 - **第一次来**：读 [CONTRIBUTING.md](CONTRIBUTING.md)（贡献指南）→ [OWNERS.md](OWNERS.md)（治理与裁决）
+- **完整流程**：[docs/co-creation-guide.md](docs/co-creation-guide.md)（角色/认领/审核/署名/激励 SOP）
 - **找活干**：看 `classics/` 哪些经典缺章节全文，或开 issue 认领
 - **提 PR**：遵循 [CONTRIBUTING.md](CONTRIBUTING.md) 的检查清单 + 完整流程 SOP
 - **贡献者注册**：第一个 PR 里把自己加入 [AUTHORS.yaml](AUTHORS.yaml)，之后全仓复用你的 ID 署名

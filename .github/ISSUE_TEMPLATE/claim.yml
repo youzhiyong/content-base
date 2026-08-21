@@ -1,0 +1,28 @@
+---
+name: "认领：录入/校勘内容"
+about: 认领一部经典、一篇章节、一位人物或一个概念，避免与他人撞车。
+title: "认领：录入《XX·XX》"
+labels: ["认领:available"]
+assignees: ""
+---
+
+## 认领范围
+
+- **内容类型**：经典原文 / 章节 / 人物 / 概念 / 译文注释 / 校勘
+- **目标**：`classics/{slug}/chapters/` 或 `entities/...`
+- **具体篇/章/人/词**：
+
+## 计划
+
+- **预期完成时间**：
+- **公版来源**（text_source 将标注）：维基文库 / 其他（请给 URL 或书名版本）
+
+## 自检承诺
+
+- [ ] 已确认该内容尚未被认领（查 `claimed_by` 字段与 issue 列表）
+- [ ] 完成后运行 `python tools/check.py` 0 错误
+- [ ] 遵守 CONTRIBUTING.md 署名与 AI 规则
+
+---
+
+> 认领规则见 `docs/co-creation-guide.md` §3。30 天无进展将被回收。
