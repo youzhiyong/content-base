@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "poetry.schema.json",
+  "title": "诗词曲赋(预留)",
+  "description": "poetry/{poet_slug}/works/{slug}.md 的 frontmatter(预留类型,结构待扩充)。继承 _common。",
+  "allOf": [
+    { "$ref": "./_common.schema.json" }
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "poet_slug": {
+      "type": "string",
+      "description": "作者 slug,引用 entities/persons/{slug}"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "作品题名"
+    },
+    "dynasty": {
+      "type": ["string", "null"],
+      "description": "朝代(如 tang / song)"
+    },
+    "genre": {
+      "type": ["string", "null"],
+      "description": "体裁(五言绝句 / 七律 / 词牌名 …)"
+    }
+  },
+  "required": [
+    "slug",
+    "title",
+    "poet_slug"
+  ]
+}

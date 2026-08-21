@@ -1,0 +1,26 @@
+---
+slug: daodejing
+domain:[tiandao, rendao, xiushen]
+title: 道德经
+title_en: Tao Te Ching
+author_slug: laozi
+era_slug: spring-autumn
+compiled_year: -350
+school_slug: daoism
+background: 道家开山之作，相传为春秋末老子西出函谷关时著。是中国哲学最具原创性的经典之一，对后世哲学、政治、军事、养生等领域影响深远。
+structure: 八十一章，分道经与德经两篇。以精炼韵文写成，言简意赅，蕴涵极深。
+core_thought: 以道为宇宙本源，道生万物。倡导无为而治和柔弱胜刚强的辩证智慧。主张返璞归真、少私寡欲，追求自然和谐的人生境界。
+summary: 道家核心经典，以道为宇宙本源的哲学元典。
+text_source: 道德经·公版通行本（具体校点本版本锚定待补，见质量任务）
+review_status: PUBLISHED
+credibility_level: B
+contributors:
+  - id: yiwangxi-team
+    roles:
+      - collate
+    date: 2026-08-14
+---
+
+# 章节索引
+
+（章节原文待录入，见 M3 计划：逐章填充 `## 原文 / ## 今译 / ## 注释`。）

@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "classic-chapter.schema.json",
+  "title": "经典章节",
+  "description": "classics/{slug}/chapters/{NNN}-{name}.md 的 frontmatter。继承 _common;slug 省略,由 classic + chapter_number 推导。正文格式见 README §3.3(原文/今译/注释三区段 + 编号对齐)。",
+  "allOf": [
+    { "$ref": "./_common.schema.json" }
+  ],
+  "properties": {
+    "classic": {
+      "type": "string",
+      "description": "所属经典 slug(引用完整性校验:必须存在于 classics/)"
+    },
+    "chapter_number": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "章号,与文件名 {三位编号}-{name} 的前缀一致"
+    },
+    "chapter_title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "篇/章标题(如 学而第一)"
+    },
+    "superseded_by": {
+      "type": ["string", "null"],
+      "description": "勘误新版本标记(如 v2)。PUBLISHED 文件不可直接改,勘误走新版本(README §6.3)。"
+    }
+  },
+  "required": [
+    "classic",
+    "chapter_number",
+    "chapter_title",
+    "text_source",
+    "contributors"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "classic.schema.json",
+  "title": "古籍元数据",
+  "description": "classics/{slug}/classic.md 的 frontmatter。继承 _common,自有字段:成书背景 / 结构 / 核心思想 / 文本来源(公版锚定)。",
+  "allOf": [
+    { "$ref": "./_common.schema.json" }
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "中文书名"
+    },
+    "title_en": {
+      "type": "string",
+      "description": "英文书名"
+    },
+    "author_slug": {
+      "type": ["string", "null"],
+      "description": "作者/整理者,引用 entities/persons/{slug}。作者无考的汇编型经典(诗经/尚书/礼记等)允许 null。"
+    },
+    "era_slug": {
+      "type": ["string", "null"],
+      "description": "成书时代 slug。eras 未入仓前不做跨文件校验。"
+    },
+    "school_slug": {
+      "type": ["string", "null"],
+      "description": "所属流派 slug。schools 未入仓前不做跨文件校验。"
+    },
+    "background": {
+      "type": "string",
+      "description": "成书背景"
+    },
+    "structure": {
+      "type": "string",
+      "description": "全书结构说明"
+    },
+    "core_thought": {
+      "type": "string",
+      "description": "核心思想"
+    },
+    "summary": {
+      "type": "string",
+      "description": "一句话简介"
+    },
+    "text_source": {
+      "type": "string",
+      "minLength": 1,
+      "description": "公版校点本来源锚定:版本 + 校点者 + 出处(法律底线,见 README §6.2)"
+    },
+    "chapter_count": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "篇章总数(可选,用于进度核对)"
+    },
+    "claimed_by": {
+      "type": ["string", "null"],
+      "description": "认领者 ID(认领制,见 OWNERS.md)"
+    },
+    "compiled_year": {
+      "type": "integer",
+      "description": "成书年代(公元年, 负数=公元前); 约值, 用于经典排序, 待校订"
+    },
+    "domain": {
+      "type": "array",
+      "description": "知识领域八维标签(见 docs/knowledge-domains.md); 允许多标签。sync.py 以逗号连接存入 classics.domain(TEXT)",
+      "items": {
+        "type": "string",
+        "enum": [
+          "tiandao",
+          "rendao",
+          "xiushen",
+          "jiadao",
+          "chushi",
+          "zhidao",
+          "jingshi",
+          "shenmei"
+        ]
+      }
+    }
+  },
+  "required": [
+    "slug",
+    "title",
+    "title_en",
+    "author_slug",
+    "background",
+    "structure",
+    "core_thought",
+    "summary",
+    "text_source"
+  ]
+}

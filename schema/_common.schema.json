@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "_common.schema.json",
+  "title": "通用字段层(所有内容类型共用)",
+  "description": "收敛 5 组通用逻辑:slug 唯一性 / 状态流转 / 署名 / 引用 / 可信度。具体类型 schema 通过 allOf + $ref 继承本层(见 README §4)。",
+  "type": "object",
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "全局唯一 slug:小写拼音 + 连字符,仅 [a-z0-9-]。章节文件可省略(由 classic + chapter_number 推导)。"
+    },
+    "review_status": {
+      "type": "string",
+      "enum": ["DRAFT", "REVIEW", "APPROVED", "PUBLISHED"],
+      "description": "校对状态流转:DRAFT(初稿) → REVIEW(有人校过) → APPROVED(维护者确认) → PUBLISHED(已上线)"
+    },
+    "credibility_level": {
+      "type": "string",
+      "enum": ["S", "A", "B", "C"],
+      "default": "B",
+      "description": "可信度:S=学界共识 A=主流观点 B=一般说法 C=存疑/少数派。C 级不可 PUBLISHED(状态机硬约束)。"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "可选标签"
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "AUTHORS.yaml 中注册的人员 ID"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["transcribe", "annotate", "translate", "collate", "review"]
+            },
+            "description": "贡献角色:录入 / 注释 / 翻译 / 校勘 / 审校"
+          },
+          "date": {
+            "type": "string",
+            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+          }
+        },
+        "required": ["id"]
+      },
+      "description": "创作者署名。只填人,AI 只能标 ai_used,永不进 contributors。"
+    },
+    "reviewers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "string" },
+          "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+        },
+        "required": ["id"]
+      },
+      "description": "审核链留痕"
+    },
+    "text_source": {
+      "type": "string",
+      "minLength": 5,
+      "description": "来源锚定(法律底线):版本 + 校点者 + 出处 URL/书名。章节/经典必填,见 README §6.2"
+    },
+    "ai_used": {
+      "type": "string",
+      "description": "AI 参与标注(如 deepseek-r1)。存在 ai_used 且 contributors 为空 ⇒ 不允许离开 DRAFT(状态机硬约束)。"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "最近校对日期"
+    },
+    "retired": {
+      "type": "boolean",
+      "default": false,
+      "description": "true = 停用(软删除),sync.py 据此从 DB 下线"
+    }
+  },
+  "required": ["review_status"]
+}

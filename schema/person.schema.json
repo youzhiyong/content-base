@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "person.schema.json",
+  "title": "历史人物(生平事实)",
+  "description": "entities/persons/{slug}.md 的 frontmatter。继承 _common。只放生平事实(生卒/籍贯/师承/事迹),思想评价归加工层(数据库卡片)。",
+  "allOf": [
+    { "$ref": "./_common.schema.json" }
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_en": {
+      "type": ["string", "null"]
+    },
+    "courtesy_name": {
+      "type": ["string", "null"],
+      "description": "字"
+    },
+    "pseudonym": {
+      "type": ["string", "null"],
+      "description": "号"
+    },
+    "pinyin": {
+      "type": ["string", "null"]
+    },
+    "birth_year": {
+      "type": "integer",
+      "description": "公元前用负数(如孔子 -551)"
+    },
+    "death_year": {
+      "type": ["integer", "null"]
+    },
+    "era_slug": {
+      "type": ["string", "null"],
+      "description": "主要活动时代 slug。eras 未入仓前不做跨文件校验。"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "一句话客观描述"
+    },
+    "thought_position": {
+      "type": ["string", "null"],
+      "description": "学派/思想归属(事实性描述,非评价)"
+    }
+  },
+  "required": [
+    "slug",
+    "name",
+    "summary"
+  ]
+}

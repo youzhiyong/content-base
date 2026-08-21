@@ -1,0 +1,36 @@
+# AUTHORS.yaml — 全仓人员注册表
+
+> 全仓唯一人物表。**一人一 ID**,文件 frontmatter 里的 `contributors` / `reviewers` 只允许引用这里的 ID。
+> 新贡献者第一次提 PR 时,先把自己加进来;之后全仓复用。
+> `id` 一经注册**不可变**(改名 = 全仓联动),请慎重取 ID。
+>
+> 校验规则(check.py 强制):任何文件引用的 contributor / reviewer ID 必须存在于此文件,否则报错。
+> AI 永不注册为作者——AI 参与只能标 `ai_used`(见 README §5.2)。
+
+## 注册示例(结构约定)
+
+```yaml
+- id: xia-ming              # 唯一 ID:名+拼音,小写连字符,全局唯一
+  name: 夏明                # 展示名(真实姓名或常用昵称)
+  github: xiaming          # GitHub 用户名(用于关联提交记录)
+  specialities: [论语, 诗经]  # 专业领域,给 credibility 背书
+  joined: 2026-08          # 加入月份
+```
+
+## 正式注册表
+
+# 初始导入账户:代表把 data/seeds 存量数据拆库进 content/ 的工程动作。
+# 非真实个人,用于标识"这批 baseline 数据由项目初始整理"。
+- id: yiwangxi-team
+  name: 忆往昔项目组
+  github: yiwangxi
+  specialities: [古籍, 历史人物, 拆库迁移]
+  joined: 2026-08
+
+<!-- 后续贡献者请在首个 PR 中添加:
+- id: xia-ming
+  name: 夏明
+  github: xiaming
+  specialities: [论语, 诗经]
+  joined: 2026-08
+-->

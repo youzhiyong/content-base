@@ -1,0 +1,64 @@
+# 忆往昔内容仓库 LICENSE
+
+> 本仓库是「忆往昔」(YIWANGXI) 知识平台的事实层内容仓库,收录古籍原文、诗词、历史人物等**恒量内容**。
+> 定稿日期:2026-08-16(取代先前占位版)。
+
+## 一、内容许可(分层)
+
+本仓库内容按类型适用不同许可,请以**每个文件 frontmatter 的 `text_source` 与 `credibility_level` 为准**:
+
+| 内容类型 | 适用许可 | 说明 |
+|----------|----------|------|
+| 古籍原文 / 诗词原文 | **公有领域 (Public Domain)** | 仅收录公版校点本(作者逝世逾 50 年且已进入公有领域),frontmatter 强制标注 `text_source` 来源与版本。公有领域内容本身不受版权保护,但引用时建议署名来源(见「署名义务」)。 |
+| 历史人物生平条目(事实汇编) | **CC BY 4.0** | 事实本身不受版权保护,但汇编文本按 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可:可复制、分发、改编,须署名本仓库与作者。 |
+| 译文 / 注释 / 评点 | **CC BY-SA 4.0** | 加工性文本(今译、注释、评点)按 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh) 许可:可复制、分发、改编,须署名,衍生作品须以相同许可发布。 |
+
+> 单个文件的具体许可以该文件 frontmatter 标注为准;未单独标注的,默认归入其所在类型对应的上述许可。
+
+## 二、署名义务
+
+- 使用本仓库内容时,须保留/注明来源:作品名、作者(frontmatter `contributors` / `reviewers`)、来源链接(本仓库)与 `text_source` 标注的原典出处。
+- 署名方式示例:`《论语·学而》原文,录自忆往昔内容仓库 (https://github.com/yiwangxi/content), 底本:维基文库公版校点本。`
+
+## 三、代码与工具
+
+本仓库内 `tools/`、`schema/` 中的程序与配置(如 `check.py`、`sync.py`、JSON Schema)按 **MIT License** 许可:
+
+```
+MIT License
+
+Copyright (c) 2026 忆往昔 YIWANGXI
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+## 四、AI 生成内容
+
+- 仓库原则:**AI 永不注册为作者**(见 `AUTHORS.yaml` 与 `CONTRIBUTING.md`)。AI 辅助生成的文本若进入仓库(如初始转录),须在 frontmatter 标注 `ai_used`,并以 `credibility_level` 反映可信度(B 级 = 待人工校勘)。
+- AI 生成且未人工校勘的内容,不构成可分发作品中的"人类创作"部分,版权归属按上述分层许可;但建议公开其 AI 生成属性,保持透明。
+
+## 五、免责声明
+
+- 本仓库内容按"原样"提供,不附带任何明示或默示担保(包括准确性、完整性、适用性)。
+- 古籍文本以公版校点本为底本,可能存在异文;`text_source` 标注了来源与版本,使用者应以权威版本复核。
+- 本仓库中的历史人物条目坚持中性、客观表述,不构成对任何历史人物的评价或政治立场。
+
+---
+
+**合规底线**:协议一旦定稿,署名义务即为使用本仓库内容的最低合规要求。转载、改编、商业化使用前,请对照本 LICENSE 确认对应内容类型的具体许可条款。

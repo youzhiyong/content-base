@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "concept.schema.json",
+  "title": "核心概念(词条事实层)",
+  "description": "entities/concepts/{slug}.md 的 frontmatter。继承 _common。只放概念的基础词条定义(客观、稳定),深度诠释/对比/现代映射归加工层(数据库知识卡片)。",
+  "allOf": [
+    { "$ref": "./_common.schema.json" }
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "name_en": {
+      "type": ["string", "null"]
+    },
+    "pinyin": {
+      "type": ["string", "null"]
+    },
+    "domain_code": {
+      "type": ["string", "null"],
+      "description": "八维领域 code(tiandao/rendao/xiushen/jiadao/chushi/zhidao/jingshi/shenmei)。domains 未入仓前不做跨文件校验。"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "一句话客观定义"
+    },
+    "definition": {
+      "type": ["string", "null"],
+      "description": "基础词条定义(客观事实层);深度诠释由数据库卡片承载"
+    }
+  },
+  "required": [
+    "slug",
+    "name",
+    "summary"
+  ]
+}
