@@ -387,6 +387,41 @@ def build_chapter_sql(fm: dict, body: str, resolver: SlugResolver):
     return sql, slug, None
 
 
+def build_event_sql(fm: dict, body: str, resolver: SlugResolver):
+    """events 表 upsert。返回 (sql, slug, error)。
+
+    字段映射(与主仓库 events 表一致):
+      slug / title / era_id(era_slug→era_id) / year(可为负) /
+      summary / description(正文 ## 详述) / significance / status=PUBLISHED
+    events 表零迁移,字段已完备(UNIQUE(slug))。
+    """
+    slug = fm["slug"]
+    fields: dict[str, str] = {"slug": sql_str(slug)}
+
+    if "title" in fm:
+        fields["title"] = sql_str(fm["title"])
+    if fm.get("era_slug"):
+        eid = resolver.era(fm["era_slug"])
+        if eid is None:
+            return None, slug, f"era_slug={fm['era_slug']!r} 在 DB 中不存在"
+        fields["era_id"] = str(eid)
+    if "year" in fm:
+        fields["year"] = sql_int(fm.get("year"))
+    if "summary" in fm:
+        fields["summary"] = sql_str(fm.get("summary"))
+    # description 从正文 ## 详述 提取(可选)
+    desc = extract_section(body, "详述")
+    if desc:
+        fields["description"] = sql_str(desc)
+    if "significance" in fm:
+        fields["significance"] = sql_str(fm.get("significance"))
+    # events 默认 PUBLISHED(事实层已审,来自内容仓库即权威)
+    fields["status"] = sql_str("PUBLISHED")
+    fields["updated_at"] = "NOW()"
+
+    return build_upsert("events", ["slug"], fields), slug, None
+
+
 # ---------------------------------------------------------------------------
 # 校验(增量:只校验当前文件)
 # ---------------------------------------------------------------------------
@@ -534,6 +569,8 @@ def main() -> int:
             sql, slug, err = build_classic_sql(fm, resolver)
         elif tkey == "classic-chapter":
             sql, slug, err = build_chapter_sql(fm, body, resolver)
+        elif tkey == "event":
+            sql, slug, err = build_event_sql(fm, body, resolver)
         else:
             print(f"  ~ {rel}: 类型 {tkey} 暂不支持同步,跳过")
             continue

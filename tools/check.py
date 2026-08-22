@@ -362,6 +362,10 @@ TYPE_RULES = {
         "glob": "entities/concepts/*.md",
         "schema": "concept.schema.json",
     },
+    "event": {
+        "glob": "events/*.md",
+        "schema": "event.schema.json",
+    },
     "poetry": {
         "glob": "poetry/*/works/*.md",
         "schema": "poetry.schema.json",
@@ -563,9 +567,9 @@ def check_cross_refs(slugs: dict[str, str], rep: Reporter):
 def check_seeds(rep: Reporter) -> int:
     """--seeds:校验 data/seeds/*.json 与 schema 对齐。
 
-    注:事实层(persons/classics/concepts)权威源已迁至 content/ 仓库(M2 拆库),
-    data/seeds 仅保留变量层种子;当前变量层文件均无对应 schema,校验暂空,
-    待新增 schema 后在此登记(如 events.json + event.schema.json)。
+    注:事实层(persons/classics/concepts/events)权威源已迁至 content/ 仓库(M2 拆库),
+    events 已落地为 events/*.md + event.schema.json(TYPE_RULES 已注册,走常规校验);
+    data/seeds 仅保留变量层种子,当前变量层文件均无对应 schema,校验暂空。
     """
     # 兼容两处: 主仓库 ../data/seeds (首选), 独立仓库自包含 seeds/ (候选)
     seeds_dir = CONTENT_ROOT.parent / "data" / "seeds"

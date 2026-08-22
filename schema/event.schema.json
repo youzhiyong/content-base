@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "event.schema.json",
+  "title": "时间线事件(史实节点)",
+  "description": "events/{slug}.md 的 frontmatter。对齐 concepts/persons 现有字段,映射 events 表(slug/title/era_id/year/summary/significance/status)。",
+  "allOf": [
+    { "$ref": "./_common.schema.json" }
+  ],
+  "properties": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "事件标题"
+    },
+    "era_slug": {
+      "type": ["string", "null"],
+      "description": "关联时代 slug(eras 表由 Flyway V8 预置,SlugResolver 解析为 era_id)"
+    },
+    "year": {
+      "type": ["integer", "null"],
+      "description": "公元年份,负数=公元前(如周公 -1043)"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 1,
+      "description": "一句话客观描述(→ events.summary)"
+    },
+    "significance": {
+      "type": ["string", "null"],
+      "description": "历史意义/影响(→ events.significance)"
+    }
+  },
+  "required": [
+    "slug",
+    "title",
+    "era_slug",
+    "year",
+    "summary"
+  ]
+}
