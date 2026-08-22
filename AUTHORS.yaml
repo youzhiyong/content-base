@@ -27,6 +27,12 @@
   specialities: [古籍, 历史人物, 拆库迁移]
   joined: 2026-08
 
+- id: fundgao
+  name: fundgao
+  github: fundgao
+  specialities: [古籍转录, 道德经, 商君书, 伤寒论]
+  joined: 2026-08
+
 <!-- 后续贡献者请在首个 PR 中添加:
 - id: xia-ming
   name: 夏明
