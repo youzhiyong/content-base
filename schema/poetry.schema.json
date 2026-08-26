@@ -1,19 +1,20 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "poetry.schema.json",
-  "title": "诗词曲赋(预留)",
-  "description": "poetry/{poet_slug}/works/{slug}.md 的 frontmatter(预留类型,结构待扩充)。继承 _common。",
+  "title": "诗词曲赋",
+  "description": "poetry/{poet_slug}/works/{slug}.md 的 frontmatter。继承 _common。诗词属事实层恒量(公版文本),可关联到八维领域(domain)与知识图谱概念(related_concepts)。",
   "allOf": [
     { "$ref": "./_common.schema.json" }
   ],
   "properties": {
     "slug": {
       "type": "string",
-      "pattern": "^[a-z0-9-]+$"
+      "pattern": "^[a-z0-9-]+$",
+      "description": "作品 slug:{poet_slug}-{序号},全局唯一"
     },
     "poet_slug": {
       "type": "string",
-      "description": "作者 slug,引用 entities/persons/{slug}"
+      "description": "作者 slug,引用 poetry/{poet_slug}/author.md;若作者在 entities/persons/ 亦存在可同名复用"
     },
     "title": {
       "type": "string",
@@ -22,11 +23,34 @@
     },
     "dynasty": {
       "type": ["string", "null"],
-      "description": "朝代(如 tang / song)"
+      "description": "朝代(如 tang / song / yuan)"
+    },
+    "era_slug": {
+      "type": ["string", "null"],
+      "description": "引用 entities/eras/{slug}(可选,如 sui-tang / song)"
     },
     "genre": {
       "type": ["string", "null"],
-      "description": "体裁(五言绝句 / 七律 / 词牌名 …)"
+      "description": "体裁(五言绝句 / 七律 / 词牌名 …);词牌名亦可填 rhythmic"
+    },
+    "rhythmic": {
+      "type": ["string", "null"],
+      "description": "词牌名(词专用)"
+    },
+    "domain": {
+      "type": ["string", "null"],
+      "description": "八维领域 code:tiandao/rendao/xiushen/jiadao/chushi/zhidao/jingshi/shenmei。由 related_concepts 主导域派生,缺省留 null",
+      "enum": ["tiandao", "rendao", "xiushen", "jiadao", "chushi", "zhidao", "jingshi", "shenmei", null]
+    },
+    "related_concepts": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "description": "关联知识图谱概念 slug(entities/concepts/{slug}),由主题关键词自动匹配 + 人工复核"
+    },
+    "related_classics": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "description": "关联经典 slug(classics/{slug}),可选"
     }
   },
   "required": [

@@ -1,0 +1,30 @@
+---
+slug: liqingzhao-011
+poet_slug: liqingzhao
+title: 多丽
+dynasty: song
+genre: 多丽
+domain: shenmei
+text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
+review_status: DRAFT
+credibility_level: B
+contributors:
+  - id: yiwangxi-team
+    roles: [transcribe]
+    date: 2026-08-22
+ai_used: hanziconv(繁简转换)
+---
+
+## 原文
+
+小楼寒，夜长帘幕低垂。
+恨萧萧、无情风雨，夜来揉损琼肌。
+也不似、贵妃醉脸，也不似、孙寿愁眉。
+韩令偷香，徐娘傅粉，莫将比拟未新奇。
+细看取、屈平陶令，风韵正相宜。
+微风起，清芬酝籍，不减酴醿。
+渐秋阑、雪清玉瘦，向人无限依依。
+似愁凝、汉皋解佩，似泪洒、纨扇题诗。
+朗月清风，浓烟暗雨，天教憔悴度芳姿。
+纵爱惜、不知从此，留得几多时。
+人情好，何须更忆，泽畔东篱。
