@@ -422,6 +422,55 @@ def build_event_sql(fm: dict, body: str, resolver: SlugResolver):
     return build_upsert("events", ["slug"], fields), slug, None
 
 
+def build_poem_sql(fm: dict, body: str, resolver: SlugResolver):
+    """poems 表 upsert。返回 (sql, slug, error)。
+
+    诗词为事实层恒量:诗人信息以 poet_slug/poet_name 字符串存储(不强制 FK)。
+    content 优先取正文 ## 原文 区段,否则取正文全文。
+    """
+    slug = fm["slug"]
+    fields: dict[str, str] = {"slug": sql_str(slug)}
+
+    if "title" in fm:
+        fields["title"] = sql_str(fm.get("title"))
+    if "poet_slug" in fm:
+        fields["poet_slug"] = sql_str(fm.get("poet_slug"))
+    if "poet_name" in fm:
+        fields["poet_name"] = sql_str(fm.get("poet_name"))
+    elif fm.get("author"):
+        fields["poet_name"] = sql_str(fm.get("author"))
+    if "dynasty" in fm:
+        fields["dynasty"] = sql_str(fm.get("dynasty"))
+    if "genre" in fm:
+        fields["genre"] = sql_str(fm.get("genre"))
+    if "rhythmic" in fm:
+        fields["rhythmic"] = sql_str(fm.get("rhythmic"))
+    if "domain" in fm:
+        d = fm["domain"]
+        domains = ",".join(str(x) for x in d) if isinstance(d, list) else str(d)
+        fields["domain"] = sql_str(domains)
+    if "related_concepts" in fm:
+        rc = fm["related_concepts"]
+        fields["related_concepts"] = sql_str(
+            ",".join(str(x) for x in rc) if isinstance(rc, list) else str(rc))
+    if "related_classics" in fm:
+        rl = fm["related_classics"]
+        fields["related_classics"] = sql_str(
+            ",".join(str(x) for x in rl) if isinstance(rl, list) else str(rl))
+    # content: 优先取 ## 原文 区段,否则取正文全文(去掉 frontmatter 后)
+    content = extract_section(body, "原文")
+    if not content:
+        content = body.strip()
+    fields["content"] = sql_str(content)
+    if "credibility_level" in fm:
+        fields["credibility_level"] = sql_str(fm.get("credibility_level"))
+    if "review_status" in fm:
+        fields["review_status"] = sql_str(fm.get("review_status"))
+    fields["updated_at"] = "NOW()"
+
+    return build_upsert("poems", ["slug"], fields), slug, None
+
+
 # ---------------------------------------------------------------------------
 # 校验(增量:只校验当前文件)
 # ---------------------------------------------------------------------------
@@ -571,6 +620,8 @@ def main() -> int:
             sql, slug, err = build_chapter_sql(fm, body, resolver)
         elif tkey == "event":
             sql, slug, err = build_event_sql(fm, body, resolver)
+        elif tkey == "poetry":
+            sql, slug, err = build_poem_sql(fm, body, resolver)
         else:
             print(f"  ~ {rel}: 类型 {tkey} 暂不支持同步,跳过")
             continue
