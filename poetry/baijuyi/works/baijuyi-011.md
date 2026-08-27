@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-011
 poet_slug: baijuyi
+poet_name: 白居易
 title: 琴曲歌辞 昭君怨
 dynasty: tang
 genre: 绝句

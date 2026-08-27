@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-013
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 还山贻湛法师
 dynasty: tang
 genre: 古诗

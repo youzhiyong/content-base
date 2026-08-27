@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-006
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 杂歌谣辞 李夫人歌 一
 dynasty: tang
 genre: 古诗

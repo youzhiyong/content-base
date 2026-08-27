@@ -1,6 +1,7 @@
 ---
 slug: wangchangling-015
 poet_slug: wangchangling
+poet_name: 王昌龄
 title: 杂曲歌辞 少年行二首 二
 dynasty: tang
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: dumu-008
 poet_slug: dumu
+poet_name: 杜牧
 title: 冬至日寄小姪阿宜诗
 dynasty: tang
 genre: 古诗

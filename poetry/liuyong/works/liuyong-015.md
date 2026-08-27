@@ -1,6 +1,7 @@
 ---
 slug: liuyong-015
 poet_slug: liuyong
+poet_name: 柳永
 title: 送征衣
 dynasty: song
 genre: 送征衣

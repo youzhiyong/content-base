@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-013
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 崔处士
 dynasty: tang
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: liuyong-003
 poet_slug: liuyong
+poet_name: 柳永
 title: 题中峰寺
 dynasty: song
 genre: 绝句

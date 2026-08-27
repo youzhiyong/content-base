@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-005
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 清平乐
 dynasty: song
 genre: 清平乐

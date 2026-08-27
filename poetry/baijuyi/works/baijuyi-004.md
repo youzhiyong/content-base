@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-004
 poet_slug: baijuyi
+poet_name: 白居易
 title: 相和歌辞 王昭君二首 二
 dynasty: tang
 genre: 古诗

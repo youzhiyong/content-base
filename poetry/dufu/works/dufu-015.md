@@ -1,6 +1,7 @@
 ---
 slug: dufu-015
 poet_slug: dufu
+poet_name: 杜甫
 title: 相和歌辞 前苦寒行二首 一
 dynasty: tang
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: libai-015
 poet_slug: libai
+poet_name: 李白
 title: 相和歌辞 对酒二首 一
 dynasty: tang
 genre: 古诗

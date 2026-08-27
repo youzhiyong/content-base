@@ -1,6 +1,7 @@
 ---
 slug: xinqiji-014
 poet_slug: xinqiji
+poet_name: 辛弃疾
 title: 兰陵王
 dynasty: song
 genre: 兰陵王

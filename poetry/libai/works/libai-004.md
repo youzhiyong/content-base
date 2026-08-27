@@ -1,6 +1,7 @@
 ---
 slug: libai-004
 poet_slug: libai
+poet_name: 李白
 title: 鼓吹曲辞 君马黄
 dynasty: tang
 genre: 古诗

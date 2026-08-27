@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-013
 poet_slug: baijuyi
+poet_name: 白居易
 title: 杂曲歌辞 浩歌行
 dynasty: tang
 genre: 古诗

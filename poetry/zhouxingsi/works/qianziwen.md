@@ -1,6 +1,7 @@
 ---
 slug: qianziwen
 poet_slug: zhouxingsi
+poet_name: 周兴嗣
 title: 千字文
 dynasty: liang
 genre: 蒙学

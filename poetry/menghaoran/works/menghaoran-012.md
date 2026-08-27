@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-012
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 书怀贻京邑同好
 dynasty: tang
 genre: 古诗

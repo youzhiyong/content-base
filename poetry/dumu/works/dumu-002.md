@@ -1,6 +1,7 @@
 ---
 slug: dumu-002
 poet_slug: dumu
+poet_name: 杜牧
 title: 杂曲歌辞 少年行二首 一
 dynasty: tang
 genre: 古诗

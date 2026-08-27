@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-009
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 锦瑟
 dynasty: tang
 genre: 绝句

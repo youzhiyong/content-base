@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-015
 poet_slug: baijuyi
+poet_name: 白居易
 title: 杂曲歌辞 生别离
 dynasty: tang
 genre: 律诗

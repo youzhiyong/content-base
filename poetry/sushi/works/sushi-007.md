@@ -1,6 +1,7 @@
 ---
 slug: sushi-007
 poet_slug: sushi
+poet_name: 苏轼
 title: 戎州
 dynasty: song
 genre: 古诗

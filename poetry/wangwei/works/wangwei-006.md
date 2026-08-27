@@ -1,6 +1,7 @@
 ---
 slug: wangwei-006
 poet_slug: wangwei
+poet_name: 王维
 title: 相和歌辞 班倢伃三首 二
 dynasty: tang
 genre: 古诗

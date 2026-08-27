@@ -1,6 +1,7 @@
 ---
 slug: luyou-008
 poet_slug: luyou
+poet_name: 陆游
 title: 南乡子
 dynasty: song
 genre: 南乡子

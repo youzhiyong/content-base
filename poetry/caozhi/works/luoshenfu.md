@@ -1,6 +1,7 @@
 ---
 slug: luoshenfu
 poet_slug: caozhi
+poet_name: 曹植
 title: 洛神赋
 dynasty: three-kingdoms
 genre: 赋

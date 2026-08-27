@@ -1,6 +1,7 @@
 ---
 slug: luyou-012
 poet_slug: luyou
+poet_name: 陆游
 title: 感皇恩
 dynasty: song
 genre: 感皇恩

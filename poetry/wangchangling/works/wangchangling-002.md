@@ -1,6 +1,7 @@
 ---
 slug: wangchangling-002
 poet_slug: wangchangling
+poet_name: 王昌龄
 title: 横吹曲辞 出塞 二
 dynasty: tang
 genre: 古诗

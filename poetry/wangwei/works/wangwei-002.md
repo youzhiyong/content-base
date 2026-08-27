@@ -1,6 +1,7 @@
 ---
 slug: wangwei-002
 poet_slug: wangwei
+poet_name: 王维
 title: 横吹曲辞 出塞
 dynasty: tang
 genre: 绝句

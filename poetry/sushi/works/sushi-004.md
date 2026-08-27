@@ -1,6 +1,7 @@
 ---
 slug: sushi-004
 poet_slug: sushi
+poet_name: 苏轼
 title: 过宜宾见夷中乱山
 dynasty: song
 genre: 古诗

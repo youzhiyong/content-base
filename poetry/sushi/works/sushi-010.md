@@ -1,6 +1,7 @@
 ---
 slug: sushi-010
 poet_slug: sushi
+poet_name: 苏轼
 title: 过安乐山闻山上木叶有文如道士篆符云此山乃张道陵所寓二首  其一
 dynasty: song
 genre: 古诗

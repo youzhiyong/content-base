@@ -1,6 +1,7 @@
 ---
 slug: dumu-006
 poet_slug: dumu
+poet_name: 杜牧
 title: 郡斋独酌
 dynasty: tang
 genre: 古诗

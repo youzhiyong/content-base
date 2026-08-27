@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-012
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 令狐舍人说昨夜西掖翫月因戏赠
 dynasty: tang
 genre: 绝句

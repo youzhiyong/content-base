@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-004
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 渔家傲
 dynasty: song
 genre: 渔家傲

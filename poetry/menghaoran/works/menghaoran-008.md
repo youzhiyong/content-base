@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-008
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 大堤行寄万七
 dynasty: tang
 genre: 绝句

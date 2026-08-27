@@ -1,6 +1,7 @@
 ---
 slug: sushi-009
 poet_slug: sushi
+poet_name: 苏轼
 title: 泊南井口期任遵圣长官到晚不及见复来
 dynasty: song
 genre: 绝句

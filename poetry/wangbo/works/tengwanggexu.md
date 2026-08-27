@@ -1,6 +1,7 @@
 ---
 slug: tengwanggexu
 poet_slug: wangbo
+poet_name: 王勃
 title: 滕王阁序
 dynasty: tang
 genre: 序

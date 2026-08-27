@@ -1,6 +1,7 @@
 ---
 slug: liuyong-007
 poet_slug: liuyong
+poet_name: 柳永
 title: 雪梅香
 dynasty: song
 genre: 雪梅香

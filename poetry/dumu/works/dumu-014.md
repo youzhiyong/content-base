@@ -1,6 +1,7 @@
 ---
 slug: dumu-014
 poet_slug: dumu
+poet_name: 杜牧
 title: 雪中书怀
 dynasty: tang
 genre: 古诗

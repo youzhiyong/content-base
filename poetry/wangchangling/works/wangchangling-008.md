@@ -1,6 +1,7 @@
 ---
 slug: wangchangling-008
 poet_slug: wangchangling
+poet_name: 王昌龄
 title: 相和歌辞 放歌行
 dynasty: tang
 genre: 古诗

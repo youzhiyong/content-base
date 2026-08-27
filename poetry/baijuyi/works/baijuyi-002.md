@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-002
 poet_slug: baijuyi
+poet_name: 白居易
 title: 相和歌辞 輓歌
 dynasty: tang
 genre: 律诗

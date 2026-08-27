@@ -1,6 +1,7 @@
 ---
 slug: luyou-010
 poet_slug: luyou
+poet_name: 陆游
 title: 满江红
 dynasty: song
 genre: 满江红

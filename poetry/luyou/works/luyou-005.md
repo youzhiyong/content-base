@@ -1,6 +1,7 @@
 ---
 slug: luyou-005
 poet_slug: luyou
+poet_name: 陆游
 title: 水调歌头
 dynasty: song
 genre: 水调歌头

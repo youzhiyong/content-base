@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-001
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 孤雁儿・御街行
 dynasty: song
 genre: 孤雁儿・御街行

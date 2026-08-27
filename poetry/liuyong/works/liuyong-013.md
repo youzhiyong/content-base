@@ -1,6 +1,7 @@
 ---
 slug: liuyong-013
 poet_slug: liuyong
+poet_name: 柳永
 title: 甘草子
 dynasty: song
 genre: 甘草子

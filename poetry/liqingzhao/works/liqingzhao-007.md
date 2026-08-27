@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-007
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 转调满庭芳・满庭芳
 dynasty: song
 genre: 转调满庭芳・满庭芳

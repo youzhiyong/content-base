@@ -1,6 +1,7 @@
 ---
 slug: luyou-006
 poet_slug: luyou
+poet_name: 陆游
 title: 浪淘沙
 dynasty: song
 genre: 浪淘沙

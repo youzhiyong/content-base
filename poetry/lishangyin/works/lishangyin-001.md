@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-001
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 相和歌辞 江南曲
 dynasty: tang
 genre: 绝句

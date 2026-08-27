@@ -1,6 +1,7 @@
 ---
 slug: libai-014
 poet_slug: libai
+poet_name: 李白
 title: 相和歌辞 登高丘而望远
 dynasty: tang
 genre: 古诗

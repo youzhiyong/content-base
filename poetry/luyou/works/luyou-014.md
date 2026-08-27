@@ -1,6 +1,7 @@
 ---
 slug: luyou-014
 poet_slug: luyou
+poet_name: 陆游
 title: 好事近
 dynasty: song
 genre: 好事近

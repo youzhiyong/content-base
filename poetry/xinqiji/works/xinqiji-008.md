@@ -1,6 +1,7 @@
 ---
 slug: xinqiji-008
 poet_slug: xinqiji
+poet_name: 辛弃疾
 title: 卜算子
 dynasty: song
 genre: 卜算子

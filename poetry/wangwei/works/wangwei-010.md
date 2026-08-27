@@ -1,6 +1,7 @@
 ---
 slug: wangwei-010
 poet_slug: wangwei
+poet_name: 王维
 title: 杂曲歌辞 苦热行
 dynasty: tang
 genre: 律诗

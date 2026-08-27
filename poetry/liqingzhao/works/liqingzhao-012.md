@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-012
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 菩萨蛮
 dynasty: song
 genre: 菩萨蛮

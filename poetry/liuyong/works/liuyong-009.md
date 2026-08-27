@@ -1,6 +1,7 @@
 ---
 slug: liuyong-009
 poet_slug: liuyong
+poet_name: 柳永
 title: 早梅芳・喜迁莺
 dynasty: song
 genre: 早梅芳・喜迁莺

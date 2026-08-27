@@ -1,6 +1,7 @@
 ---
 slug: dumu-009
 poet_slug: dumu
+poet_name: 杜牧
 title: 李甘诗
 dynasty: tang
 genre: 古诗

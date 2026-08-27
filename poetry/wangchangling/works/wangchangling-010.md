@@ -1,6 +1,7 @@
 ---
 slug: wangchangling-010
 poet_slug: wangchangling
+poet_name: 王昌龄
 title: 相和歌辞 长信怨 二
 dynasty: tang
 genre: 古诗

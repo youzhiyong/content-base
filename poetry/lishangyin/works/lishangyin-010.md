@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-010
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 重过圣女祠
 dynasty: tang
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: libai-012
 poet_slug: libai
+poet_name: 李白
 title: 横吹曲辞 白鼻騧
 dynasty: tang
 genre: 古诗

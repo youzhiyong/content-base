@@ -1,6 +1,7 @@
 ---
 slug: sushi-003
 poet_slug: sushi
+poet_name: 苏轼
 title: 犍爲王氏书楼
 dynasty: song
 genre: 律诗

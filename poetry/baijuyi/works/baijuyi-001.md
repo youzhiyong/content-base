@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-001
 poet_slug: baijuyi
+poet_name: 白居易
 title: 横吹曲辞 长安道
 dynasty: tang
 genre: 古诗

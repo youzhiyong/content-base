@@ -1,6 +1,7 @@
 ---
 slug: xinqiji-015
 poet_slug: xinqiji
+poet_name: 辛弃疾
 title: 贺新郎
 dynasty: song
 genre: 贺新郎

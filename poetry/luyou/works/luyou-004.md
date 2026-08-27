@@ -1,6 +1,7 @@
 ---
 slug: luyou-004
 poet_slug: luyou
+poet_name: 陆游
 title: 青玉案
 dynasty: song
 genre: 青玉案

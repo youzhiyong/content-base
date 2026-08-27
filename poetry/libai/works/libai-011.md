@@ -1,6 +1,7 @@
 ---
 slug: libai-011
 poet_slug: libai
+poet_name: 李白
 title: 横吹曲辞 幽州胡马客歌
 dynasty: tang
 genre: 古诗

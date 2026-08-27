@@ -1,6 +1,7 @@
 ---
 slug: xinqiji-004
 poet_slug: xinqiji
+poet_name: 辛弃疾
 title: 生查子
 dynasty: song
 genre: 生查子

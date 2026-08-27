@@ -1,6 +1,7 @@
 ---
 slug: libai-013
 poet_slug: libai
+poet_name: 李白
 title: 相和歌辞 公无渡河
 dynasty: tang
 genre: 古诗

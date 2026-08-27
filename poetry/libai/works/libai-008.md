@@ -1,6 +1,7 @@
 ---
 slug: libai-008
 poet_slug: libai
+poet_name: 李白
 title: 横吹曲辞 关山月
 dynasty: tang
 genre: 古诗

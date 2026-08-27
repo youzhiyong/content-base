@@ -1,6 +1,7 @@
 ---
 slug: luyou-001
 poet_slug: luyou
+poet_name: 陆游
 title: 赤壁词・念奴娇
 dynasty: song
 genre: 赤壁词・念奴娇

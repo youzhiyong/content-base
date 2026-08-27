@@ -1,6 +1,7 @@
 ---
 slug: dumu-001
 poet_slug: dumu
+poet_name: 杜牧
 title: 琴曲歌辞 别鹤
 dynasty: tang
 genre: 绝句

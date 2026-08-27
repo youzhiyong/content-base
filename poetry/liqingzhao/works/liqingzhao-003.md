@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-003
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 玉楼春
 dynasty: song
 genre: 玉楼春

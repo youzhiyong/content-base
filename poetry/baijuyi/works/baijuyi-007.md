@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-007
 poet_slug: baijuyi
+poet_name: 白居易
 title: 相和歌辞 反白头吟
 dynasty: tang
 genre: 古诗

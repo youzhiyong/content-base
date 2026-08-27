@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-014
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 浣溪沙
 dynasty: song
 genre: 浣溪沙

@@ -1,6 +1,7 @@
 ---
 slug: sushi-015
 poet_slug: sushi
+poet_name: 苏轼
 title: 留题仙都观
 dynasty: song
 genre: 律诗

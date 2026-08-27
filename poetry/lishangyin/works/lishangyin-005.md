@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-005
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 杂曲歌辞 杨柳枝 二
 dynasty: tang
 genre: 古诗

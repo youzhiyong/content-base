@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-010
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 题云门山寄越府包户曹徐起居
 dynasty: tang
 genre: 律诗

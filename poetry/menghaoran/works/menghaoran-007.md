@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-007
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 湖中旅泊寄阎九司户防
 dynasty: tang
 genre: 古诗

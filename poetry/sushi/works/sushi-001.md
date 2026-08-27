@@ -1,6 +1,7 @@
 ---
 slug: sushi-001
 poet_slug: sushi
+poet_name: 苏轼
 title: 郭纶
 dynasty: song
 genre: 绝句

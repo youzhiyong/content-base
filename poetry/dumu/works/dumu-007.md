@@ -1,6 +1,7 @@
 ---
 slug: dumu-007
 poet_slug: dumu
+poet_name: 杜牧
 title: 张好好诗
 dynasty: tang
 genre: 古诗

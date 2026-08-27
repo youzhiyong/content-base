@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-005
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 秋登兰山寄张五
 dynasty: tang
 genre: 古诗

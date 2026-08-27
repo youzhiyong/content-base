@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-009
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 仲夏归汉南园寄京邑耆旧
 dynasty: tang
 genre: 律诗

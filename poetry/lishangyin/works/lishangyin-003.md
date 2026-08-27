@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-003
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 杂曲歌辞 无愁果有愁曲
 dynasty: tang
 genre: 古诗

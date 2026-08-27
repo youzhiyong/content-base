@@ -1,6 +1,7 @@
 ---
 slug: libai-007
 poet_slug: libai
+poet_name: 李白
 title: 横吹曲辞 折杨柳
 dynasty: tang
 genre: 绝句

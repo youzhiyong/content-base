@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-002
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 满庭霜・满庭芳
 dynasty: song
 genre: 满庭霜・满庭芳

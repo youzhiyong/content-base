@@ -1,6 +1,7 @@
 ---
 slug: dufu-013
 poet_slug: dufu
+poet_name: 杜甫
 title: 横吹曲辞 后出塞五首 四
 dynasty: tang
 genre: 古诗

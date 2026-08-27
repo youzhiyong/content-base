@@ -1,6 +1,7 @@
 ---
 slug: liuyong-005
 poet_slug: liuyong
+poet_name: 柳永
 title: 黄莺儿
 dynasty: song
 genre: 黄莺儿

@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-006
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 南歌子
 dynasty: song
 genre: 南歌子

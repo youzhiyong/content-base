@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-011
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 多丽
 dynasty: song
 genre: 多丽

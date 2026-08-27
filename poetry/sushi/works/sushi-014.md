@@ -1,6 +1,7 @@
 ---
 slug: sushi-014
 poet_slug: sushi
+poet_name: 苏轼
 title: 涪州得山胡次子由韵
 dynasty: song
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-014
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 自喜
 dynasty: tang
 genre: 绝句

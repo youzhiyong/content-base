@@ -1,6 +1,7 @@
 ---
 slug: liuyong-006
 poet_slug: liuyong
+poet_name: 柳永
 title: 玉女摇仙佩
 dynasty: song
 genre: 玉女摇仙佩

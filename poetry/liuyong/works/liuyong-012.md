@@ -1,6 +1,7 @@
 ---
 slug: liuyong-012
 poet_slug: liuyong
+poet_name: 柳永
 title: 斗百花
 dynasty: song
 genre: 斗百花

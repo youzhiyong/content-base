@@ -1,6 +1,7 @@
 ---
 slug: wangwei-004
 poet_slug: wangwei
+poet_name: 王维
 title: 相和歌辞 陇西行
 dynasty: tang
 genre: 古诗

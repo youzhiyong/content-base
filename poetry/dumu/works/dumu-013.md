@@ -1,6 +1,7 @@
 ---
 slug: dumu-013
 poet_slug: dumu
+poet_name: 杜牧
 title: 皇风
 dynasty: tang
 genre: 绝句

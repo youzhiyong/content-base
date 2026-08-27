@@ -1,6 +1,7 @@
 ---
 slug: baijuyi-010
 poet_slug: baijuyi
+poet_name: 白居易
 title: 相和歌辞 采莲曲
 dynasty: tang
 genre: 古诗

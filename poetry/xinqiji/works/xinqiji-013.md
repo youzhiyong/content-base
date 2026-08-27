@@ -1,6 +1,7 @@
 ---
 slug: xinqiji-013
 poet_slug: xinqiji
+poet_name: 辛弃疾
 title: 哨遍
 dynasty: song
 genre: 哨遍

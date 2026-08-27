@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-002
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 从张丞相游南纪城猎戏赠裴迪张参军
 dynasty: tang
 genre: 律诗

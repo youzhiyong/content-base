@@ -1,6 +1,7 @@
 ---
 slug: sushi-008
 poet_slug: sushi
+poet_name: 苏轼
 title: 舟中听大人弹琴
 dynasty: song
 genre: 律诗

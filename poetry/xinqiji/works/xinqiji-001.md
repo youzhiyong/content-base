@@ -1,6 +1,7 @@
 ---
 slug: xinqiji-001
 poet_slug: xinqiji
+poet_name: 辛弃疾
 title: 西江月
 dynasty: song
 genre: 西江月

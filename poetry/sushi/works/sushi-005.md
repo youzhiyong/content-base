@@ -1,6 +1,7 @@
 ---
 slug: sushi-005
 poet_slug: sushi
+poet_name: 苏轼
 title: 夜泊牛口
 dynasty: song
 genre: 古诗

@@ -1,6 +1,7 @@
 ---
 slug: wangwei-008
 poet_slug: wangwei
+poet_name: 王维
 title: 相和歌辞 祠渔山神女歌 迎神
 dynasty: tang
 genre: 古诗

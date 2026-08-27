@@ -1,6 +1,7 @@
 ---
 slug: wangwei-003
 poet_slug: wangwei
+poet_name: 王维
 title: 相和歌辞 从军行
 dynasty: tang
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-001
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 相和歌辞 大堤行
 dynasty: tang
 genre: 绝句

@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-011
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 宿扬子津寄润州长山刘隐士
 dynasty: tang
 genre: 绝句

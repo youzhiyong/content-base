@@ -1,6 +1,7 @@
 ---
 slug: liuyong-008
 poet_slug: liuyong
+poet_name: 柳永
 title: 尾犯
 dynasty: song
 genre: 尾犯

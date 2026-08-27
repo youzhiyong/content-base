@@ -1,6 +1,7 @@
 ---
 slug: sushi-013
 poet_slug: sushi
+poet_name: 苏轼
 title: 江上看山
 dynasty: song
 genre: 绝句

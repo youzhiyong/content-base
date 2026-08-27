@@ -1,6 +1,7 @@
 ---
 slug: wangwei-011
 poet_slug: wangwei
+poet_name: 王维
 title: 杂曲歌辞 少年行四首 一
 dynasty: tang
 genre: 古诗

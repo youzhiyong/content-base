@@ -1,6 +1,7 @@
 ---
 slug: sushi-012
 poet_slug: sushi
+poet_name: 苏轼
 title: 渝州寄王道矩
 dynasty: song
 genre: 绝句

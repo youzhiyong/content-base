@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-002
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 相和歌辞 王昭君
 dynasty: tang
 genre: 古诗

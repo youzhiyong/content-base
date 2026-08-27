@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-014
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 夏日南亭怀辛大
 dynasty: tang
 genre: 古诗

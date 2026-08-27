@@ -1,6 +1,7 @@
 ---
 slug: dufu-005
 poet_slug: dufu
+poet_name: 杜甫
 title: 横吹曲辞 前出塞九首 五
 dynasty: tang
 genre: 绝句

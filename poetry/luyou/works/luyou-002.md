@@ -1,6 +1,7 @@
 ---
 slug: luyou-002
 poet_slug: luyou
+poet_name: 陆游
 title: 浣溪沙
 dynasty: song
 genre: 浣溪沙

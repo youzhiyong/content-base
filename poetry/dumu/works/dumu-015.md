@@ -1,6 +1,7 @@
 ---
 slug: dumu-015
 poet_slug: dumu
+poet_name: 杜牧
 title: 雨中作
 dynasty: tang
 genre: 古诗

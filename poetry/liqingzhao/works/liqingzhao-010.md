@@ -1,6 +1,7 @@
 ---
 slug: liqingzhao-010
 poet_slug: liqingzhao
+poet_name: 李清照
 title: 如梦令
 dynasty: song
 genre: 如梦令

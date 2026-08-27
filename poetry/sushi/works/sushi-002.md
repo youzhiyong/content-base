@@ -1,6 +1,7 @@
 ---
 slug: sushi-002
 poet_slug: sushi
+poet_name: 苏轼
 title: 初发嘉州
 dynasty: song
 genre: 古诗

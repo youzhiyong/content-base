@@ -1,6 +1,7 @@
 ---
 slug: wangwei-001
 poet_slug: wangwei
+poet_name: 王维
 title: 横吹曲辞 陇头吟
 dynasty: tang
 genre: 古诗

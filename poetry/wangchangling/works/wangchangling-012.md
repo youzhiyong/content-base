@@ -1,6 +1,7 @@
 ---
 slug: wangchangling-012
 poet_slug: wangchangling
+poet_name: 王昌龄
 title: 相和歌辞 采莲曲三首 二
 dynasty: tang
 genre: 古诗

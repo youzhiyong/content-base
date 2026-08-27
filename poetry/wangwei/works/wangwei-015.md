@@ -1,6 +1,7 @@
 ---
 slug: wangwei-015
 poet_slug: wangwei
+poet_name: 王维
 title: 杂曲歌辞 渭城曲
 dynasty: tang
 genre: 古诗

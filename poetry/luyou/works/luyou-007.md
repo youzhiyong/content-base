@@ -1,6 +1,7 @@
 ---
 slug: luyou-007
 poet_slug: luyou
+poet_name: 陆游
 title: 定风波
 dynasty: song
 genre: 定风波

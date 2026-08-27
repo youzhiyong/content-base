@@ -1,6 +1,7 @@
 ---
 slug: dumu-011
 poet_slug: dumu
+poet_name: 杜牧
 title: 送沈处士赴苏州李中丞招以诗赠行
 dynasty: tang
 genre: 古诗

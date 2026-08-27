@@ -1,6 +1,7 @@
 ---
 slug: dumu-012
 poet_slug: dumu
+poet_name: 杜牧
 title: 长安送友人游湖南
 dynasty: tang
 genre: 古诗

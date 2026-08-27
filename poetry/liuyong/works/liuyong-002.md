@@ -1,6 +1,7 @@
 ---
 slug: liuyong-002
 poet_slug: liuyong
+poet_name: 柳永
 title: 鬻海歌
 dynasty: song
 genre: 古诗

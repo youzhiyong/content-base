@@ -1,6 +1,7 @@
 ---
 slug: liuyong-001
 poet_slug: liuyong
+poet_name: 柳永
 title: 赠内臣孙可久
 dynasty: song
 genre: 绝句

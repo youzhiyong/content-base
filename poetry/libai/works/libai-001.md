@@ -1,6 +1,7 @@
 ---
 slug: libai-001
 poet_slug: libai
+poet_name: 李白
 title: 鼓吹曲辞 上之回
 dynasty: tang
 genre: 律诗

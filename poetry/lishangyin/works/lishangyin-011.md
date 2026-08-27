@@ -1,6 +1,7 @@
 ---
 slug: lishangyin-011
 poet_slug: lishangyin
+poet_name: 李商隐
 title: 寄罗劭兴
 dynasty: tang
 genre: 绝句

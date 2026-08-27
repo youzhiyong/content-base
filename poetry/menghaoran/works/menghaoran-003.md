@@ -1,6 +1,7 @@
 ---
 slug: menghaoran-003
 poet_slug: menghaoran
+poet_name: 孟浩然
 title: 登江中孤屿赠白云先生王迥
 dynasty: tang
 genre: 古诗
