@@ -6,6 +6,7 @@ title: 牛口见月
 dynasty: song
 genre: 古诗
 domain: xiushen
+related_classics: [zhuangzi]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

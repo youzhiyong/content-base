@@ -6,6 +6,7 @@ title: 杂曲歌辞 少年行二首 二
 dynasty: tang
 genre: 绝句
 domain: rendao
+related_classics: [shiji]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

@@ -6,6 +6,7 @@ title: 琴曲歌辞 昭君怨
 dynasty: tang
 genre: 绝句
 domain: rendao
+related_classics: [shiji]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

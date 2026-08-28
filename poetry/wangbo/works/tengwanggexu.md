@@ -11,6 +11,7 @@ contributors:
   - id: fundgao
     roles: [transcribe]
     date: 2026-08-22
+related_classics: [shiji]
 text_source: 滕王阁序·公版通行本（DAO_DE_JING 转录，fundgao，MIT；待校勘）
 ---
 

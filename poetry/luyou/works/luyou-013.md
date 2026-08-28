@@ -6,6 +6,7 @@ title: 感皇恩
 dynasty: song
 genre: 感皇恩
 domain: rendao
+related_classics: [shijing]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

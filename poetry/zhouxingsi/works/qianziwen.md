@@ -11,6 +11,7 @@ contributors:
   - id: fundgao
     roles: [transcribe]
     date: 2026-08-22
+related_classics: [zhouyi, shijing]
 text_source: 千字文·公版通行本（DAO_DE_JING 转录，fundgao，MIT；待校勘）
 ---
 

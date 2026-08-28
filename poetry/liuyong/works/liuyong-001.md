@@ -7,6 +7,7 @@ dynasty: song
 genre: 绝句
 domain: xiushen
 related_concepts: [qi]
+related_classics: [lunyu, daodejing]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

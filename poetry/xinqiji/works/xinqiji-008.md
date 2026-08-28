@@ -7,6 +7,7 @@ dynasty: song
 genre: 卜算子
 domain: rendao
 related_concepts: [xin]
+related_classics: [shangshu]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

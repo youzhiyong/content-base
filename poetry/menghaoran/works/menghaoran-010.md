@@ -6,6 +6,7 @@ title: 题云门山寄越府包户曹徐起居
 dynasty: tang
 genre: 律诗
 domain: tiandao
+related_classics: [zhuangzi]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B

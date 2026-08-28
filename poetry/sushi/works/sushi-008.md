@@ -6,6 +6,7 @@ title: 舟中听大人弹琴
 dynasty: song
 genre: 律诗
 domain: xiushen
+related_classics: [lunyu]
 text_source: chinese-poetry 数据集(公版) + 道可道繁简转换(hanziconv),待与权威版本校勘
 review_status: DRAFT
 credibility_level: B
